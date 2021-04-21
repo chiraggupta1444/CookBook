@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#616161"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cookbook1"
+            android:layout_margin="60dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_margin="25dp"
+            />
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:layout_margin="25dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Log in"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="175dp"
+            android:textColor="#00e5ff"/>
+        <Button
+            android:id="@+id/btnCuisine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select cuisine"
+            android:backgroundTint="@android:color/background_dark"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

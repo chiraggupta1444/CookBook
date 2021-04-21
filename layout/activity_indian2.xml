@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200"
+        tools:context=".NonLoginActivity2">
+
+        <ImageView
+            android:id="@+id/imgdal"
+            android:layout_width="146dp"
+            android:layout_height="153dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/makhani" />
+        <TextView
+            android:id="@+id/txtMakhani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAL MAKHANI"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/imgdal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.250-/"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imgdal"
+            android:layout_below="@id/textrat1"/>
+        <TextView
+            android:id="@+id/textrat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating 4.5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/imgpaneer"
+            android:layout_below="@id/txtMakhani"/>
+
+
+        <ImageView
+            android:id="@+id/imgpaneer"
+            android:layout_width="171dp"
+            android:layout_height="147dp"
+            android:layout_below="@id/imgdal"
+            android:src="@drawable/kadhai" />
+        <TextView
+            android:id="@+id/txtkadhai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KADHAI PANEER"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/imgpaneer"
+            android:layout_below="@+id/imgdal"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.250-/"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imgpaneer"
+            android:layout_below="@id/textrat2"/>
+        <TextView
+            android:id="@+id/textrat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating 4.5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/imgpaneer"
+            android:layout_below="@id/txtkadhai"/>
+
+
+        <ImageView
+            android:id="@+id/imgMix"
+            android:layout_width="151dp"
+            android:layout_height="126dp"
+            android:layout_below="@id/imgpaneer"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/mix" />
+        <TextView
+            android:id="@+id/txtMixveg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIX VEG"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/imgpaneer"
+            android:layout_toRightOf="@id/imgMix"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.250-/"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imgMix"
+            android:layout_below="@id/textrat3"/>
+
+        <TextView
+            android:id="@+id/textrat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMixveg"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@id/imgMix"
+            android:text="Rating 4.5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imgparatha"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/paratha"
+            android:layout_below="@id/imgMix"/>
+        <TextView
+            android:id="@+id/txtpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEG PARATHA   "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/imgparatha"
+            android:layout_below="@id/imgMix"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.250-/"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imgparatha"
+            android:layout_below="@id/textrat4"/>
+        <TextView
+            android:id="@+id/textrat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating 4.5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/imgparatha"
+            android:layout_below="@id/txtpar"/>
+
+
+        <ImageView
+            android:id="@+id/imgbutternaan"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/naan"
+            android:layout_below="@id/imgparatha"/>
+        <TextView
+            android:id="@+id/txtnaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUTTER NAAN   "
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/imgbutternaan"
+            android:layout_below="@id/imgparatha"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.250-/"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/imgbutternaan"
+            android:layout_below="@id/textrat5"/>
+        <TextView
+            android:id="@+id/textrat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating 4.5"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_toRightOf="@id/imgbutternaan"
+            android:layout_below="@id/txtnaan"/>
+
+    </RelativeLayout>
+</ScrollView>
